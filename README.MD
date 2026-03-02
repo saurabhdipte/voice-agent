@@ -117,7 +117,7 @@ These are configured in Render environment settings and are not stored in the re
 
 ---
 
-## 💻 Run Locally (Optional)
+## 💻 Run Locally 
 
 ### 1️⃣ Clone Repository
 
