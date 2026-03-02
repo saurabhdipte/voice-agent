@@ -165,15 +165,12 @@ Example JSON Body:
 
 ---
 
-## 📸 Proof of Functionality
-
----
 
 ## 📸 Proof of Functionality
 
 ### 1️⃣ Assistant Configuration
 
-![Assistant Configuration](screenshots/assistant_config.png)
+![Assistant Configuration](screenshots/vapi_assistant_configuration.png)
 
 This screenshot shows:
 - GPT-4.1 model selection
@@ -185,7 +182,7 @@ This screenshot shows:
 
 ### 2️⃣ Phone Number Assigned
 
-![Phone Number Assignment](screenshots/phone_number.png)
+![Phone Number Assignment](screenshots/phone_number_assignment.png)
 
 This confirms:
 - Public phone number provisioned
@@ -196,7 +193,7 @@ This confirms:
 
 ### 3️⃣ Successful Tool Execution
 
-![Tool Execution Success](screenshots/tool_success.png)
+![Tool Execution Success](screenshots/successful_tool_execution.png)
 
 This shows:
 - Tool `create_calendar_event` triggered
@@ -207,7 +204,7 @@ This shows:
 
 ### 4️⃣ Google Calendar Event Created
 
-![Calendar Event Created](screenshots/calendar_event.png)
+![Calendar Event Created](screenshots/meeting_scheduled.png)
 
 This confirms:
 - Real event created in Google Calendar
@@ -218,7 +215,7 @@ This confirms:
 
 ### 5️⃣ Render Deployment Live
 
-![Render Deployment](screenshots/render_live.png)
+![Render Deployment](screenshots/render_dashboard.png)
 
 This confirms:
 - Backend deployed on Render
