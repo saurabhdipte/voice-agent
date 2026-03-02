@@ -82,6 +82,8 @@ This separation ensures:
 - Scalable backend deployment
 - Clean separation between voice layer and calendar logic
 
+Note: Render free instances may cold-start after inactivity and the first request can take ~30–60s.
+
 ## 📅 Calendar Integration Explained
 
 This project integrates with Google Calendar using a Google Cloud Service Account.
