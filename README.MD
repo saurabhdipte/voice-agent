@@ -123,7 +123,7 @@ These are configured in Render environment settings and are not stored in the re
 
 ### 1️⃣ Clone Repository
 
-git clone https://github.com/YOUR_USERNAME/voice-agent.git  
+git clone https://github.com/saurabhdipte/voice-agent 
 cd voice-agent/server  
 
 ### 2️⃣ Install Dependencies
