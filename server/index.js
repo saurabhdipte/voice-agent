@@ -53,7 +53,7 @@ app.post("/book", async (req, res) => {
 
     const response = await calendar.events.insert({
       calendarId:
-        "38cf39876bc5c22b03468bff67173ec77913e33eb8332623391fd139a3330108@group.calendar.google.com",
+        process.env.CALENDAR_ID,
       requestBody: event,
     });
 
@@ -94,7 +94,7 @@ app.post("/vapi/webhook", async (req, res) => {
       };
 
       const response = await calendar.events.insert({
-        calendarId: "38cf39876bc5c22b03468bff67173ec77913e33eb8332623391fd139a3330108@group.calendar.google.com",
+        calendarId: process.env.CALENDAR_ID,
         requestBody: event,
       });
 
